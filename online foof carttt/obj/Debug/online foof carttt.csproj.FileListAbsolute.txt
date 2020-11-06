@@ -1,0 +1,10 @@
+E:\online food cart\online foof carttt\online foof carttt\bin\online foof carttt.dll
+E:\online food cart\online foof carttt\online foof carttt\bin\online foof carttt.pdb
+E:\online food cart\online foof carttt\online foof carttt\obj\Debug\online foof carttt.csprojResolveAssemblyReference.cache
+E:\online food cart\online foof carttt\online foof carttt\obj\Debug\online foof carttt.dll
+E:\online food cart\online foof carttt\online foof carttt\obj\Debug\online foof carttt.pdb
+E:\online foof carttt\online foof carttt\bin\online foof carttt.dll
+E:\online foof carttt\online foof carttt\bin\online foof carttt.pdb
+E:\online foof carttt\online foof carttt\obj\Debug\online foof carttt.csprojResolveAssemblyReference.cache
+E:\online foof carttt\online foof carttt\obj\Debug\online foof carttt.dll
+E:\online foof carttt\online foof carttt\obj\Debug\online foof carttt.pdb

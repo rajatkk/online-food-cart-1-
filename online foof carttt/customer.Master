@@ -1,0 +1,117 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Customer.master.cs" Inherits="online_foof_carttt.Customer" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            height: 196px;
+        }
+        .auto-style5 {
+            width: 100%;
+            background-color: #FFCC00;
+            height: 45px;
+            margin-top: 7px;
+        }
+        .auto-style6 {
+            height: 67px;
+        }
+        .auto-style7 {
+            height: 200px;
+            color: #000000;
+        }
+        .auto-style8 {
+            background-color: #FFFFFF;
+        }
+        .auto-style9 {
+            height: 33px;
+            font-weight: 700;
+        }
+        .auto-style10 {
+            height: 33px;
+            font-weight: 700;
+            width: 230px;
+        }
+        .auto-style11 {
+            height: 33px;
+            font-weight: normal;
+            width: 183px;
+            text-align: center;
+        }
+        .auto-style13 {
+            color: #000000;
+        }
+        .auto-style14 {
+            text-decoration: none;
+        }
+        .auto-style15 {
+            height: 33px;
+            font-weight: 700;
+            width: 139px;
+        }
+        .auto-style18 {
+            height: 33px;
+            font-weight: 700;
+            width: 197px;
+        }
+        .auto-style19 {
+            height: 33px;
+            font-weight: 700;
+            width: 148px;
+        }
+        .auto-style20 {
+            height: 33px;
+            font-weight: 700;
+            width: 189px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style="height: 468px">
+       
+        <table class="auto-style1" style="background-image: url('/image/MASTER2 - Copy.jpg'); background-color: #FFCC00; background-repeat: no-repeat; background-position: center center; border: thin solid #000000">
+            <tr>
+                <td class="auto-style7" style="vertical-align: bottom; text-align: left; font-size: large; font-weight: 700;"><span class="auto-style8">Welcome:</span><asp:Label ID="Label1" runat="server" CssClass="auto-style8"></asp:Label>
+                &nbsp;&nbsp;<asp:ImageButton ID="ImageButton2" runat="server" Height="58px" ImageUrl="~/image/logou.png" OnClick="ImageButton2_Click" Width="57px" />
+                </td>
+            </tr>
+        </table>
+        <table style="border: thin ridge #000000; width: 1330px; margin-top: 7px; background-color: #FFCC00; vertical-align: middle; text-align: center; color: #000000; font-size: x-large; height: 23px;">
+            <tr>
+                <td class="auto-style19" style="border: thin solid #000000"><a class="auto-style14" href="CHome.aspx"><span class="auto-style13">Home</span></a></td>
+                <td class="auto-style11" style="border: thin solid #000000">
+                    <a class="auto-style14" href="food.aspx"><span class="auto-style13"><strong>Search</strong></span></a></td>
+                <td class="auto-style10" style="border: thin solid #000000"><a class="auto-style14" href="CMyProfile.aspx"><span class="auto-style13">My profile</span></a></td>
+                <td class="auto-style18" style="border: thin solid #000000"><a class="auto-style14" href="Cart.aspx"><span class="auto-style13">Cart</span></a></td>
+                <td class="auto-style20" style="border: thin solid #000000"><a class="auto-style14" href="orderdetails.aspx"><span class="auto-style13">Your orders</span></a></td>
+                <td class="auto-style9" style="border: thin solid #000000"><a href="contact.aspx"><span class="auto-style13">Conatact us</span></a></td>
+                <td class="auto-style15" style="border: thin solid #000000"><a href="about.aspx"><span class="auto-style13">About us</span></a></td>
+            </tr>
+
+
+        </table>
+        <table style="width: 1330px; height: 0px; margin-top: 8px; background-color: #FFFF99;">
+            <tr>
+                <td>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+        <table class="auto-style5">
+            <tr>
+                <td class="auto-style6" style="font-weight: 700; color: #000066; text-align: center; font-size: x-large"><em>Powered By- Rajat kushwaha</em></td>
+            </tr>
+        </table>
+
+       
+    </div>
+    </form>
+    </body>
+</html>

@@ -1,0 +1,91 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="online_foof_carttt.Admin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            height: 223px;
+        }
+        .auto-style3 {
+            width: 100%;
+            height: 3px;
+            margin-top: 6px;
+        }
+        .auto-style4 {
+            width: 100%;
+            height: 95px;
+            color: #000000;
+            font-size: x-large;
+        }
+        .auto-style7 {
+            width: 303px;
+            height: 35px;
+        }
+        .auto-style8 {
+            width: 349px;
+            height: 35px;
+        }
+        .auto-style9 {
+            height: 35px;
+        }
+        .auto-style10 {
+            width: 297px;
+            height: 35px;
+        }
+        .auto-style12 {
+            height: 98px;
+        }
+        .auto-style13 {
+            height: 41px;
+        }
+        .auto-style14 {
+            color: #FFFFFF;
+        }
+    </style>
+</head>
+<body style="height: 485px">
+    <form id="form1" runat="server">
+    <div style="height: 495px">
+       
+        <table class="auto-style1" style="border: thin solid #000000; background: #FF9900 url('/image/bannner222.jpg') no-repeat scroll center center; vertical-align: middle; text-align: center; color: #FF9900; font-style: italic; font-family: Algerian; font-size: xx-large; font-weight: normal; margin-bottom: 0px;">
+            <tr>
+                <td class="auto-style12" style="vertical-align: bottom; text-align: left; font-size: large; font-weight: normal; font-style: normal; color: #FFFFFF;">
+                    <asp:Label ID="Label1" runat="server" style="font-size: x-large"></asp:Label>
+&nbsp;<asp:ImageButton ID="ImageButton1" runat="server" Height="47px" ImageUrl="~/image/led-1.png" OnClick="ImageButton1_Click" Width="57px" />
+                </td>
+            </tr>
+        </table>
+       
+        <table class="auto-style3" style="background-color: #FF6600; border: thin solid #000000; margin-top: 6px;">
+            <tr>
+                <td class="auto-style10" style="text-align: center; font-weight: 700; text-decoration: underline; color: #FFFFFF"><a href="AHome.aspx"><span class="auto-style14">Home</span></a></td>
+                <td class="auto-style7" style="text-align: center; color: #FFFFFF; text-decoration: underline; font-weight: 700"><a href="AddEdititems.aspx"><span class="auto-style14">Edit Items</span></a></td>
+                <td class="auto-style8" style="text-align: center; text-decoration: underline; color: #FFFFFF; font-weight: 700"><a href="Transection.aspx"><span class="auto-style14">Transection</span></a></td>
+                <td class="auto-style9" style="color: #FFFFFF; text-align: center; font-weight: 700"><a href="about.aspx"><span class="auto-style14">About</span></a></td>
+            </tr>
+        </table>
+        <table class="auto-style3" style="color: #FFFFFF; border: thin solid #000000; background-color: #FFCC66;">
+            <tr>
+                <td>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+        <table class="auto-style4" style="border: thin solid #000000; background-color: #FF6600; font-style: italic; font-weight: bold; margin-top: 4px;">
+            <tr>
+                <td class="auto-style13" style="text-align: center"><span class="auto-style14">Powered by - Rajat kushwaha</span><br />
+                    </td>
+            </tr>
+        </table>
+       
+    </div>
+    </form>
+</body>
+</html>
